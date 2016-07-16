@@ -90,15 +90,7 @@ let s:monsters = [
 \ ]
 
 function! s:seed(filename)
-  let s:hash = 0
-py << endpy
-import vim
-def _hash(name):
-
-    vim.command('let s:hash = "%s"' % hash(name))
-endpy
-  python _hash(vim.eval('a:filename'))
-  return s:hash
+  return '0x' . sha256(a:filename)[:7] + 0
 endfunction
 
 function! pokemon#get(filename)
