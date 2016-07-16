@@ -12,7 +12,7 @@ Inspired by awesome Emacs hacker gongo's [Pokémon-Emacs](https://github.com/gon
 Requirements
 ------------
 
-Vim7.4 + Python interface
+Vim7.4
 
 Installation
 ------------
