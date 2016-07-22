@@ -86,7 +86,8 @@ let s:monsters = [
 \  'Fire',
 \  'Miniryu',      'Hakuryu',     'Kairyu',
 \  'Mewtwo',
-\  'Mew'
+\  'Mew',
+\  'Mattn'
 \ ]
 
 function! s:seed(filename)
